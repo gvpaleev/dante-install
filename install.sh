@@ -3,7 +3,7 @@
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install dante-server libpam-pwdfile -y
+sudo apt install dante-server libpam-pwdfile whois -y
 
 systemctl stop danted.service
 
